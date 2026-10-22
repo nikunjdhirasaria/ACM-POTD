@@ -4,17 +4,13 @@
 A. Series of Crimes (181A)
 
 ## Date
-22 October 2026
+15 October 2026
 
 ## Problem Description
 Given an n × m grid containing exactly three asterisks (*), find the position of the fourth point such that all four points form a rectangle whose sides are parallel to the grid boundaries.
 
 ## Approach
-Store the positions of the three asterisks.
-
-Among their row coordinates, the coordinate that appears only once gives the missing point's row. Similarly, among their column coordinates, the coordinate that appears only once gives the missing point's column.
-
-Print these two coordinates.
+Store the positions of the three asterisks. The row coordinate that appears only once gives the missing point's row, and the column coordinate that appears only once gives its column. Print the resulting row and column.
 
 ## Solution
 
@@ -57,7 +53,7 @@ int main() {
 
 ## Example
 
-Input:
+**Input:**
 ```text
 3 2
 .*
@@ -65,15 +61,14 @@ Input:
 **
 ```
 
-Output:
+**Output:**
 ```text
 1 1
 ```
 
 ## Complexity
-- Time Complexity: O(n × m)
-- Space Complexity: O(1), excluding the stored positions.
+- **Time Complexity:** O(n × m)
+- **Space Complexity:** O(1)
 
 ## Accepted Submission
-Screenshot of the accepted Codeforces submission is attached below.
-<img width="1777" height="952" alt="Screenshot 2026-10-22 231705" src="https://github.com/user-attachments/assets/f296edb9-e6f4-4ba2-b072-aed25751cf65" />
+Attach a screenshot of the accepted Codeforces submission here.
