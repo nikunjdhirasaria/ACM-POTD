@@ -72,3 +72,4 @@ int main() {
 
 ## Accepted Submission
 Attach a screenshot of the accepted Codeforces submission here.
+<img width="1777" height="952" alt="Screenshot 2026-10-22 231705" src="https://github.com/user-attachments/assets/b8425d3d-7ca3-48e6-9939-26c0365f8023" />
