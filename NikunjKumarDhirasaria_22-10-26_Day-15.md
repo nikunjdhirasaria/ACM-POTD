@@ -1,4 +1,4 @@
-# ACM POTD - Day 22
+# ACM POTD - Day 15
 
 ## Problem
 A. Series of Crimes (181A)
